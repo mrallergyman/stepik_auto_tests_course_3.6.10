@@ -8,4 +8,4 @@ def test_check_add_to_cart_button_exist(browser):
     browser.get(link)
     button = len(browser.find_elements(By.CLASS_NAME, "btn.btn-lg.btn-primary.btn-add-to-basket"))
     assert button > 0, "Не нашел кнопку"
-    time.sleep(2)
+    # time.sleep(10)
